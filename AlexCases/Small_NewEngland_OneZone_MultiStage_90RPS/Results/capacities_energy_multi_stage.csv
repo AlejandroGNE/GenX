@@ -1,0 +1,6 @@
+Resource,Zone,StartEnergyCap_p1,EndEnergyCap_p1,EndEnergyCap_p2,EndEnergyCap_p3
+natural_gas_combined_cycle,1,0.0,0.0,0.0,0.0
+solar_pv,1,0.0,0.0,0.0,0.0
+onshore_wind,1,0.0,0.0,0.0,0.0
+battery,1,0.0,3083.5471256077085,6097.354622245664,31447.711715277594
+Total,n/a,0.0,3083.5471256077085,6097.354622245664,31447.711715277594
