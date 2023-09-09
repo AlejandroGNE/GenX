@@ -1,0 +1,34 @@
+MultiStageSettingsDict:
+  Myopic: 0
+  ConvergenceTolerance: 0.01
+  WACC: 0.045
+  StageLengths:
+    - 10
+    - 10
+    - 10
+  CurStage: 3
+  NumStages: 3
+NetworkExpansion: 0
+TimeDomainReductionFolder: "TDR_Results"
+ModelingToGenerateAlternativeIterations: 3
+EnableJuMPStringNames: false
+ParameterScale: 1
+EnergyShareRequirement: 1
+PrintModel: 1
+TimeDomainReduction: 1
+Trans_Loss_Segments: 1
+CapacityReserveMargin: 0
+ModelingtoGenerateAlternativeSlack: 0.1
+Solver: "HiGHS"
+MethodofMorris: 0
+Reserves: 1
+StorageLosses: 1
+MultiStage: 1
+IncludeLossesInESR: 0
+OverwriteResults: 0
+UCommit: 2
+ModelingToGenerateAlternatives: 0
+MaxCapReq: 0
+MinCapReq: 0
+CO2Cap: 0
+WriteShadowPrices: 1
