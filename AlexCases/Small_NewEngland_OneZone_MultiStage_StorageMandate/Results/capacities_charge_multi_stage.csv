@@ -1,6 +1,0 @@
-Resource,Zone,StartChargeCap_p1,EndChargeCap_p1,EndChargeCap_p2,EndChargeCap_p3
-natural_gas_combined_cycle,1,0.0,0.0,0.0,0.0
-solar_pv,1,0.0,0.0,0.0,0.0
-onshore_wind,1,0.0,0.0,0.0,0.0
-battery,1,0.0,0.0,0.0,0.0
-Total,n/a,0.0,0.0,0.0,0.0
