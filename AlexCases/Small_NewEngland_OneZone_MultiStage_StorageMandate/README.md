@@ -1,15 +1,14 @@
 # Small New England: One Zone Multi Period
 
-2023-09-09, AN: I will be using this simple example to run my first custom case study in New England, modeling the same grid with different policies.
-Changes to settings with respect to original example include:
-CO2Cap: 0
+2023-09-09, AN: Test storage mandates.
+CO2Cap:0
+MinCapReq: 1
 
-I will run a first, reference case with no policies. 
-Then, a reference case with 50% RPS, then 90% RPS, then 99% RPS. 
-I want to compare storage adoption in these cases.
-What grid I use, or what model configuration I choose, is less relevant,
-as long as I can represent storage operation properly.
-Copmaring against a no-policy reference is where the insights are derived from.
+Minimum_capacity_requirements
+peak load in period 3: 23,770 MW
+storage mandate p1 = 23,770 MW * 0.3 = 7,131 MW
+storage mandate p1 = 7,131 MW * 2 = 14,262 MW
+storage mandate p3 = 7,131 MW * 3 = 21,393 MW
 
 
 **SmallNewEngland** is set of a simplified versions of the more detailed example system RealSystemExample. It is condensed for easy comprehension and quick testing of different components of the GenX. **SmallNewEngland/OneZone_MultiStage** is a toy multi-stage model, with three model periods and only one zone representing New England. The model includes only natural gas, solar PV, wind, and lithium-ion battery storage. Existing capacities are included to demonstrate the endogenous retirement capabilities of mutli-period modeling in GenX, although these capacities do not reflect actual brownfield capacity in the New England region.
